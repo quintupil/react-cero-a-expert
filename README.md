@@ -1,8 +1,8 @@
-\*Curso React de cero a experto (Hooks y MERN)
+# Curso React de cero a experto (Hooks y MERN)
 
-\*\*Recursos:
+## Recursos:
 
-URLS:
+### URLS:
 
 - Formatt Readme.md:
 
