@@ -8,7 +8,7 @@ path_main: "%path_local%\ReactCeroAExpertWork"
 
 Project Name: hook-app
 
-Cambiar nombre de la carpeta de proyecto por "01-hook-app"
+Cambiar nombre de la carpeta de proyecto por "05-hook-app"
 
 cd 01-hook-app
 
