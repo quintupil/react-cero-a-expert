@@ -12,8 +12,10 @@ Cambiar nombre de la carpeta de proyecto por "05-hook-app"
 
 cd 01-hook-app
 
+Instalar las dependencias
 `yarn`	
 
+Ejecutar el proyecto
 `yarn dev`
 
 
@@ -21,5 +23,7 @@ cd 01-hook-app
 Configuirar code .
 Ctrl + Shift + P 
 >code
+
+
 
 
