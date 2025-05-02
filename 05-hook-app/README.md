@@ -15,3 +15,11 @@ cd 01-hook-app
 `yarn`	
 
 `yarn dev`
+
+
+### TIPS
+Configuirar code .
+Ctrl + Shift + P 
+>code
+
+
