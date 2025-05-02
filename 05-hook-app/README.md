@@ -18,6 +18,11 @@ Instalar las dependencias
 Ejecutar el proyecto
 `yarn dev`
 
+## Configurar el proyecto
+
+Eliminar archivos de directorio src, a excepción del archivo:
+src/main.jsx
+
 
 ### TIPS
 Configuirar code .
