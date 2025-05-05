@@ -41,5 +41,20 @@ Ctrl + Shift + P
 >code
 
 
+118. useCounter - CustomHook
+
+Base CustomHook:
+
+`
+const useCounter = () => {
+
+      return {
+
+            // Retorna un objeto con las propiedades que se quieran usar en el componente
+            // 
+      }
+}
+`
+
 
 
