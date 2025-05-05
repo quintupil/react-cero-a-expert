@@ -48,14 +48,13 @@ Ctrl + Shift + P
 Base CustomHook:
 
 <code>
-const useCounter = () => {
+      const useCounter = () => {
+            return {
 
-      return {
-
-            // Retorna un objeto con las propiedades que se quieran usar en el componente
-            // 
+                  // Retorna un objeto con las propiedades que se quieran usar en el componente
+                  // 
+            }
       }
-}
 </code>
 
 
