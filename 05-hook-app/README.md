@@ -47,7 +47,7 @@ Ctrl + Shift + P
 
 Base CustomHook:
 
-`
+<code>
 const useCounter = () => {
 
       return {
@@ -56,7 +56,7 @@ const useCounter = () => {
             // 
       }
 }
-`
+</code>
 
 
 
