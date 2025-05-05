@@ -48,7 +48,7 @@ Ctrl + Shift + P
 Base CustomHook:
 
 <code>
-const useCounter = () => {
+export const useCounter = () => {
       // Definir las variables de estado y funciones
       return {
             // Retorna un objeto con las propiedades que se quieran usar en el componente
