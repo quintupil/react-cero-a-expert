@@ -10,7 +10,7 @@ export const SimpleForm = () => {
   const { username, email } = formState;
 
   const handleChange = ({ target }) => {
-    //console.log(target.value);
+    //console.log(target);
     const { name, value } = target;
     //console.log(name, value);
     setFormState({

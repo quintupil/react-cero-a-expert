@@ -35,7 +35,7 @@ index.html
 />`
 
 
-### TIPS
+## TIPS
 Configuirar code .
 Ctrl + Shift + P 
 >code
@@ -43,7 +43,7 @@ Ctrl + Shift + P
 <br />
 
 ## Items Curso
-118. useCounter - CustomHook
+### 118. useCounter - CustomHook
 
 Base CustomHook:
 
@@ -57,4 +57,7 @@ export const useCounter = () => {
 </code>
 
 
+### 129. Incorporar Caché
+
+const localCache()
 

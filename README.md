@@ -2,9 +2,7 @@
 
 ## Control Hora Curso 
 
-    Aquí quede:
-    18. useCounter - CustomHook
-    Hora: 2:41
+    //TODO: 
 
 ## <b>Notas:</b>
 
@@ -12,9 +10,9 @@ Hooks:
 
 - useState: En React, useState es un hook que te permite agregar estado a un componente funcional.
 
-
-
 - useEffect: En React, useEffect es un hook que te permite ejecutar código en respuesta a cambios en el estado o en el entorno de la aplicación.
+
+
 
 - useContext: En React, useContext es un hook que te permite acceder a un valor de contexto en un componente funcional.
 
