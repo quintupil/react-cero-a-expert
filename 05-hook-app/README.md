@@ -61,3 +61,10 @@ export const useCounter = () => {
 
 const localCache()
 
+### 130. useRef - Primer uso
+
+- useRef: Es un Hook de React que nos permite crear referencias a elementos del DOM. Es útil para controlar la renderización de componentes y para acceder a elementos del DOM sin necesidad de usar el estado. También se puede usar para almacenar valores mutables que no causan una nueva renderización cuando cambian.
+
+- useRef: Devuelve un objeto mutable con una propiedad .current que se inicializa con el valor pasado como argumento. Este objeto se mantiene constante durante toda la vida del componente.
+
+
