@@ -42,6 +42,7 @@ Ctrl + Shift + P
 
 <br />
 
+
 ## Items Curso
 ### 118. useCounter - CustomHook
 
@@ -67,4 +68,7 @@ const localCache()
 
 - useRef: Devuelve un objeto mutable con una propiedad .current que se inicializa con el valor pasado como argumento. Este objeto se mantiene constante durante toda la vida del componente.
 
+## Diagrama
+
+https://drive.google.com/file/d/1Hz9F7KRM_sHWncndPrDbe6nIQTG3TLN3/view?usp=drive_link
 
