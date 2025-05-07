@@ -5,6 +5,7 @@ import { Small } from "./Small";
 export const Memorize = () => {
 
     const { counter, increment } = useCounter(10);
+    
     const [show, setShow] = useState(true);
 
     return (
