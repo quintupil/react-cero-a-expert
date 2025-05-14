@@ -13,9 +13,13 @@ import { createRoot } from "react-dom/client";
 //import { Memorize } from "./06-memos/Memorize";
 //import { MemoHook } from "./06-memos/MemoHook";
 //import { CallbackHook } from "./06-memos";
-import { Padre } from './07-tarea-memo/Padre';
+//import { Padre } from './07-tarea-memo/Padre';
+
+import { TodoApp } from "./08-useReducer";
+import "./08-useReducer/intro-reducer"; 
 
 import "./index.css";
+
 
 
 createRoot(document.getElementById("root")).render(
@@ -61,7 +65,14 @@ createRoot(document.getElementById("root")).render(
     }
     {
       /**Ejercicio 11: Padre.jsx */
-      <Padre/>
+      /**<Padre/>*/
     }
+
+    {
+      /**Ejercicio 12: TodoApp.jsx */
+      <TodoApp/>
+    }
+    
+  
   </StrictMode>
 );
