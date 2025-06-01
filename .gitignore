@@ -28,4 +28,4 @@
 **/*.xproj
 **/*.ncrunch
 **/*.nsubtree       
-
+**/.yarn/*
