@@ -2,9 +2,7 @@
 
 ## Crear un proyecto de React con Hooks
 
-path_main: "%path_local%\ReactCeroAExpertWork"
-
-`yarn create vite`
+```yarn create vite```
 
 Project Name: hook-app
 
@@ -13,10 +11,10 @@ Cambiar nombre de la carpeta de proyecto por "05-hook-app"
 cd 01-hook-app
 
 Instalar las dependencias
-`yarn`	
+```yarn```	
 
 Ejecutar el proyecto
-`yarn dev`
+```yarn dev```
 
 ## Configurar el proyecto
 
