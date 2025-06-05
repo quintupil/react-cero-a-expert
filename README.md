@@ -1,18 +1,12 @@
 # Curso React de cero a experto (Hooks y MERN)
 
-## Control Hora Curso 
-
-    //TODO: PRUEBA !!!!!
-
-## <b>Notas:</b>
+## Notas:
 
 Hooks:
 
 - useState: En React, useState es un hook que te permite agregar estado a un componente funcional.
 
 - useEffect: En React, useEffect es un hook que te permite ejecutar código en respuesta a cambios en el estado o en el entorno de la aplicación.
-
-
 
 - useContext: En React, useContext es un hook que te permite acceder a un valor de contexto en un componente funcional.
 
