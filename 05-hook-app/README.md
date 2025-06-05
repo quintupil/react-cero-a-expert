@@ -25,35 +25,34 @@ src/main.jsx
 
 index.html
 
-`<link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-/>`
+```
+      <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+      />
+```
 
 
 ## TIPS
 Configuirar code .
 Ctrl + Shift + P 
->code
-
-<br />
-
+code
 
 ## Items Curso
 ### 118. useCounter - CustomHook
 
 Base CustomHook:
 
-<code>
-export const useCounter = () => {
-      // Definir las variables de estado y funciones
-      return {
-            // Retorna un objeto con las propiedades que se quieran usar en el componente
-      }
+```
+      export const useCounter = () => {
+            // Definir las variables de estado y funciones
+            return {
+                  // Retorna un objeto con las propiedades que se quieran usar en el componente
+            }
 }
-</code>
+```
 
 
 ### 129. Incorporar Caché
