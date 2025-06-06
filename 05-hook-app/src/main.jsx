@@ -1,9 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import { CounterApp } from "./01-useState/CounterApp";
-
-//import { CounterWithCustomHook } from "./01-useState/CounterWithCustomHook";
+//import { CounterApp } from "./01-useState/CounterApp";
+import { CounterWithCustomHook } from "./01-useState/CounterWithCustomHook";
 //import { SimpleForm } from "./02-useEffect/SimpleForm";
 //import { SimpleForm } from "./02-useEffect/SimpleForm";
 //import { HooksApp } from "./HooksApp";
@@ -15,28 +14,26 @@ import { CounterApp } from "./01-useState/CounterApp";
 //import { MemoHook } from "./06-memos/MemoHook";
 //import { CallbackHook } from "./06-memos";
 //import { Padre } from './07-tarea-memo/Padre';
-
 //import { TodoApp } from "./08-useReducer";
 //import "./08-useReducer/intro-reducer"; 
 
 import "./index.css";
-
-
-
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/** -- Pruebas de Conceptos -- */}
 
     {/**Ejercicio 0: HooksApp.jsx */
-      /**<HooksApp />*/
+      /*<HooksApp />*/
     }
     
     {/**Ejercicio 1: hooks - useState */
-    <CounterApp />}
+      /*<CounterApp />*/
+    }
 
     {/**Ejercicio 2: useCounter - CustomHook*/
-    /*<CounterWithCustomHook />*/}
+      <CounterWithCustomHook />
+    }
 
     {/**Ejercicio 3: useEffect - SimpleForm */
     /**<SimpleForm />**/}
