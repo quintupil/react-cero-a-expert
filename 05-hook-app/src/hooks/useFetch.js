@@ -14,15 +14,6 @@ export const useFetch = (url) => {
     getFetch();
   }, [url]);
 
-  const setLoadingState = () => {
-    setState({
-      data: null,
-      isLoading: true,
-      hasError: false,
-      error: null,
-    });
-  };
-
   const getFetch = async () => {
 
     console.log("getFetch - Step1")
@@ -100,6 +91,16 @@ export const useFetch = (url) => {
     }      
     console.log("getFetch - Step7 - Fin ");
   };
+
+  const setLoadingState = () => {
+    setState({
+      data: null,
+      isLoading: true,
+      hasError: false,
+      error: null,
+    });
+  };
+
 
   return {
     data: state.data,

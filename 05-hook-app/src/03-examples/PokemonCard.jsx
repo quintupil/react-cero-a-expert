@@ -7,10 +7,13 @@ export const PokemonCard = ({id, name, sprites = []}) => {
   const [boxSize, setBoxSize] = useState({height: 0, width: 0});
   
   useLayoutEffect(() => {
+
     const {height, width} = h2Ref.current.getBoundingClientRect();
     setBoxSize({height, width}); 
+
   }, [name]);
 
+  
   return (
         <section style={{ 
           height: 200, 

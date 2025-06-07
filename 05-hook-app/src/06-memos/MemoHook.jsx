@@ -14,6 +14,8 @@ export const MemoHook = () => {
     const { counter, increment } = useCounter(4000);
     const [show, setShow] = useState(true);
 
+    // useMemo: Memoriza el resultado de una función pesada
+    // y lo recalcula solo cuando cambian las dependencias (counter).
     const memoizedValue = useMemo( () => heavyStuff(counter), [counter]);
 
     return (

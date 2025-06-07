@@ -15,24 +15,25 @@ export const SimpleForm = () => {
     //console.log(name, value);
     setFormState({
       ...formState,
-      [name]: value,
+      [name]: value, //[name] Variable computada: Es una forma de acceder a las propiedades del objeto de forma dinámica, en este caso, el nombre del input que se está modificando 'username'. (name="username")
     });
   };
 
   //useEffect, se recomienda usar el useEffect para realizar efectos secundarios, como peticiones http, escuchar cambios en el DOM, etc. También recomiendan que lleve dependencias, para que se ejecute solo cuando cambie algo específico. Primer elemento es el callback, segundo es el array de dependencias.
   //Si no lleva dependencias, se ejecuta cada vez que se renderiza el componente. Si lleva un array vacío, se ejecuta solo una vez, cuando se monta el componente. Si lleva un array con dependencias, se ejecuta cada vez que cambie alguna de ellas.
   useEffect(() => {
-    //console.log("useEffect called!");
+    console.log("useEffect called!");
   }, []);
 
   //Crear efectos especializados y específicos, para que no se ejecute cada vez que se renderiza el componente.
   useEffect(() => {
-    //console.log("formState changed!");
+    console.log("formState changed!");
   }, [formState]);
 
   useEffect(() => {
-    //console.log("email changed!");
+    console.log("email changed!");
   }, [email]);
+
   return (
     <>
       <h1>Simple Form</h1>
