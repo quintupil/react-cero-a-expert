@@ -1,18 +1,17 @@
 import { TodoItem } from "./TodoItem";
 
-export const TodoList = ({todos=[], onDeleteTodo}) => {
-
-
+export const TodoList = ({ todos = [], onDeleteTodo, onToggleTodo }) => {
   return (
-    <>
-      {/** TodoList */}
-      <ul className="list-group">
-        {/** {/** onDeleteTodo={id => onDeleteTodo(id)} */} 
-        {todos.map((todo) => (
-          <TodoItem key={todo.id} todo={todo} onDeleteTodo={ onDeleteTodo }></TodoItem>
-        ))}
-      </ul>
-      {/** FIN TodoList */}
-    </>
+    <ul className="list-group">
+      {/** {/** onDeleteTodo={id => onDeleteTodo(id)} */}
+      {todos.map((todo) => (
+        <TodoItem
+          key={todo.id}
+          todo={todo}
+          onDeleteTodo={onDeleteTodo}
+          onToggleTodo={onToggleTodo}
+        />
+      ))}
+    </ul>
   );
 };
