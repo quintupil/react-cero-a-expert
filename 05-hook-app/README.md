@@ -69,3 +69,8 @@ const localCache()
 
 https://drive.google.com/file/d/1Hz9F7KRM_sHWncndPrDbe6nIQTG3TLN3/view?usp=drive_link
 
+### 157. Preparación de nuestra aplicación con Rutas
+
+```
+      yarn add react-router-dom
+```
