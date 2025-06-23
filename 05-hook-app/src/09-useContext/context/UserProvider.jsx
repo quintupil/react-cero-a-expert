@@ -1,15 +1,18 @@
+import { useState } from 'react';
 import { UserContext } from './UserContext';
 
-const user = {
-    id: '123',
-    name: 'Carlos García',
-    email: 'carlos.garcia@gmail.com'
-}
+// const user = {
+//     id: '123',
+//     name: 'Carlos García',
+//     email: 'carlos.garcia@gmail.com'
+// }
 
 export const UserProvider = ({children}) => {
-  return (
-    <UserContext.Provider value={{hola:'Mundo', user: user}}>
-        { children }
-    </UserContext.Provider>
-  )
+    const [user, setUser] =  useState();
+    
+    return (
+        <UserContext.Provider value={{ user, setUser }}>
+            { children }
+        </UserContext.Provider>
+    )
 }
