@@ -19,7 +19,6 @@ export const LoginPage = () => {
         <button 
           className="btn btn-primary"
           onClick={onLogin}>
-
           Login
         </button>
       </div>
