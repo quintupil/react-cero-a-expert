@@ -35,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:5.2.0"],\
           ["eslint-plugin-react-refresh", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:0.4.20"],\
           ["globals", "npm:16.0.0"],\
+          ["query-string", "npm:9.2.1"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:19.1.0"],\
           ["react-router-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:6.30.0"],\
@@ -1396,6 +1397,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["decode-uri-component", [\
+      ["npm:0.4.1", {\
+        "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/decode-uri-component-npm-0.4.1-61db093ef6-10c0.zip/node_modules/decode-uri-component/",\
+        "packageDependencies": [\
+          ["decode-uri-component", "npm:0.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["deep-is", [\
       ["npm:0.1.4", {\
         "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/deep-is-npm-0.1.4-88938b5a67-10c0.zip/node_modules/deep-is/",\
@@ -1765,6 +1775,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["filter-obj", [\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/filter-obj-npm-5.1.0-a1ae61a7db-10c0.zip/node_modules/filter-obj/",\
+        "packageDependencies": [\
+          ["filter-obj", "npm:5.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["find-up", [\
       ["npm:5.0.0", {\
         "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/find-up-npm-5.0.0-e03e9b796d-10c0.zip/node_modules/find-up/",\
@@ -1915,6 +1934,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:5.2.0"],\
           ["eslint-plugin-react-refresh", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:0.4.20"],\
           ["globals", "npm:16.0.0"],\
+          ["query-string", "npm:9.2.1"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:19.1.0"],\
           ["react-router-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:6.30.0"],\
@@ -2550,6 +2570,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["query-string", [\
+      ["npm:9.2.1", {\
+        "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/query-string-npm-9.2.1-74415876bf-10c0.zip/node_modules/query-string/",\
+        "packageDependencies": [\
+          ["query-string", "npm:9.2.1"],\
+          ["decode-uri-component", "npm:0.4.1"],\
+          ["filter-obj", "npm:5.1.0"],\
+          ["split-on-first", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react", [\
       ["npm:19.1.0", {\
         "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/react-npm-19.1.0-9804a7da5b-10c0.zip/node_modules/react/",\
@@ -2790,6 +2822,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/source-map-js-npm-1.2.1-b9a47d7e1a-10c0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["split-on-first", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../../AppData/Local/Yarn/Berry/cache/split-on-first-npm-3.0.0-3b993e48ae-10c0.zip/node_modules/split-on-first/",\
+        "packageDependencies": [\
+          ["split-on-first", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
