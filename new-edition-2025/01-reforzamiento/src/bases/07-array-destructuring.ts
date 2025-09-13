@@ -20,3 +20,17 @@ const [letters, numbers] = returnsArrayFn();
 console.log({letters, numbers});
 
 
+//Tarea:
+const useState = (value: string) => {
+    return[
+        value,
+        (newValue: string) => {
+            console.log(newValue);
+        }
+    ] as const //Esto asegura que el primer valor será un string y el segundo será una función
+}
+
+const [name, setName] = useState('Goku');
+console.log(name);
+setName('Vegeta');
+
