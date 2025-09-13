@@ -1,11 +1,17 @@
 // <number> es un generico ¿?
 const myPromise = new Promise<number>((resolve, reject) => {
     //Alguna tarea a ejecutar 
+    let isCancelado: boolean = true;    
     setTimeout(()=>{
         // ¡Yo Quiero mi dinero !!!
-        resolve(100);
-        //reject('Mi amigo se hizo el weón!!!');
-    }, 5000);
+        if (!isCancelado) {
+            resolve(100);
+        }else {
+            reject('Mi amigo se hizo el weón!!!');
+        }
+        
+        
+    }, 2000);
 });
 
 myPromise
