@@ -4,6 +4,7 @@ interface Props {
 }
 
 export const ItemCounter = ({ name, quantity }: Props) => {
+  console.log({ name, quantity });
   return (
     <section
       style={{
