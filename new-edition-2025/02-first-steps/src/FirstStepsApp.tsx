@@ -20,7 +20,7 @@ const itemsInCart: ItemInCart[] = [
   },
 ];
 
-export function FirstStepApp() {
+export function FirstStepsApp() {
   return (
     <>
       <h1>Carrito de compras</h1>
