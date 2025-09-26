@@ -19,12 +19,15 @@ const myStyle: CSSProperties = {
 export const MyAwesomeApp = () => {
   return (
     <>
-      {/* Lo que va entre corchete son expresiones validas de JavaScript*/}
-      <h1>{firstName}</h1>
-      <h3>{lastName}</h3>
-      <p>{favoriteGames.join(", ")}</p>
-      <h1>{isActive ? "Activo" : "No activo"}</h1>
-      <p style={myStyle}>{JSON.stringify(address)}</p>
+      <div data-testid="div-app">
+        {/* Lo que va entre corchete son expresiones validas de JavaScript*/}
+        <h1 data-testid="first-name-title">{firstName}</h1>
+        <h3>{lastName}</h3>
+        <p>{2 + 2}</p>
+        <p className="mi-clase-favorita">{favoriteGames.join(", ")}</p>
+        <h1>{isActive ? "Activo" : "No activo"}</h1>
+        <p style={myStyle}>{JSON.stringify(address)}</p>
+      </div>
     </>
   );
 };

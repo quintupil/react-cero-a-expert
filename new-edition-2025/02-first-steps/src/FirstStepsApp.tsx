@@ -8,15 +8,15 @@ interface ItemInCart {
 const itemsInCart: ItemInCart[] = [
   {
     productName: "Nintendo Switch 2",
-    quantity: 10,
+    quantity: 1,
   },
   {
     productName: "Pro Controller",
-    quantity: 11,
+    quantity: 2,
   },
   {
     productName: "Super Smash",
-    quantity: 20,
+    quantity: 5,
   },
 ];
 

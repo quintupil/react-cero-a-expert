@@ -7,8 +7,9 @@ interface Props {
   quantity?: number;
 }
 
-export const ItemCounter = ({ name, quantity }: Props) => {
+export const ItemCounter = ({ name, quantity = 1 }: Props) => {
   //console.log({ name, quantity });
+
   const [count, setCount] = useState(quantity);
 
   const handleAdd = () => {
